@@ -40,7 +40,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read the input image
-input_image = cv2.imread("brahmi.jpeg")
+input_image = cv2.imread("1.jpeg")
 
 # Convert from BGR to RGB so we can plot using matplotlib
 input_image = cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB)
@@ -116,7 +116,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = 'brahmi2.jpeg'  # Replace with your image URL or file path
+image_url = '2.jpeg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Define shear parameters
@@ -150,7 +150,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = 'brahmi3.jpg'  # Replace with your image URL or file path
+image_url = '3.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Reflect the image horizontally
@@ -187,7 +187,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = 'brahmi4.jpg'  # Replace with your image URL or file path
+image_url = '4.jpg'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Define rotation angle in degrees
@@ -228,7 +228,7 @@ def show_image(image):
     plt.show()
 
 # Load an image from URL or file path
-image_url = 'brahmi5.webp'  # Replace with your image URL or file path
+image_url = '5.webp'  # Replace with your image URL or file path
 image = cv2.imread(image_url)
 
 # Define cropping coordinates (x, y, width, height)
